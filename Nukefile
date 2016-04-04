@@ -1,12 +1,12 @@
 ;;
-;; Nukefile for RadJSON
+;; Nukefile for NuJSON
 ;;
 ;; Commands:
-;;	nuke 		- builds RadJSON as a framework
+;;	nuke 		- builds NuJSON as a framework
 ;;	nuke test	- runs the unit tests in the NuTests directory
-;;	nuke install	- installs RadJSON in /Library/Frameworks
+;;	nuke install	- installs NuJSON in /Library/Frameworks
 ;;	nuke clean	- removes build artifacts
-;;	nuke clobber	- removes build artifacts and RadJSON.framework
+;;	nuke clobber	- removes build artifacts and NuJSON.framework
 ;;
 ;; The "nuke" build tool is installed with Nu (http://programming.nu)
 ;;
@@ -35,8 +35,8 @@
 
 
 ;; framework description
-(set @framework "RadJSON")
-(set @framework_identifier   "com.radtastical.radjson")
+(set @framework "NuJSON")
+(set @framework_identifier   "nu.programming.json")
 (set @framework_creator_code "????")
 
 
